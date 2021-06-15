@@ -1,0 +1,669 @@
+@font-face{
+	font-family:"Road-Rage" ;
+	src: url("../font/Road_Rage.otf");
+}
+
+@font-face{
+	font-family:"heaters" ;
+	src: url("../font/Heaters.otf");
+}
+
+@font-face{
+	font-family:"Demo" ;
+	src: url("../font/Grindylow DEMO.otf");
+}
+									/*WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW*/
+																/*PROYECTO.HTML*/
+									/*WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW*/
+
+/*FONDO Y TÍTULO*/
+
+#fondo {
+	background: url(../img/fondos/cesped.jpg);
+
+}
+
+
+#titulo-principal{
+	text-align: center;
+	color: black;
+	font-family: Road-Rage;
+	font-size: 110px;
+	text-shadow: -2px -2px 1px #AFFE05, 1px 1px 1px #AFFE05, 0px 1px 1px #AFFE05, 2px -2px 1px #AFFE05;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 70px;
+}
+
+/*MENU NAVEGACIÓN*/
+
+nav > a{
+    color:#fff;
+    font-family: Demo;
+    font-size: 30px;
+    color: #CEFE91;
+    text-decoration: none;
+    text-shadow: -1px -1px 1px #000, 1px 1px 1px #000, -1px 1px 1px #000, 1px -1px 1px #000;
+    margin-right: 20px;
+
+} 
+
+nav{
+    text-align: right;
+    padding: 10px 100px 0 0;
+}
+
+nav > a:hover{
+    text-decoration: underline;
+}
+
+/*SECCIÓN CATEGORÍAS*/
+
+main .categorias{
+	padding: 30px 0 60px 0;
+	background-color: rgba(105, 104, 104, 0.2);
+	margin-bottom: 50px;
+}
+
+.categorias-contenedor{
+    display: flex;
+    justify-content: space-between;
+}
+.subtitulo{
+	font-family: heaters;
+	margin-left: 800px;
+	text-align: center;
+	font-size: 80px;
+	color: white;
+	text-shadow: -3px -3px 1px #000, 2px 2px 1px #000, -2px 2px 1px #000, 2px -2px 1px #000;
+}
+
+
+.imagen-juveniles{
+	height: 440px;
+	width: 700px;
+	margin-top: 100px;
+	margin-left: 100px;
+	box-shadow: -3px -3px 1px #000, 2px 2px 1px #000, -2px 2px 1px #000, 2px -2px 1px #000;
+}
+
+.contenido-categorias h3{
+	font-family: Verdana;
+	margin-bottom: 10px;
+	width: 720px;
+	font-size: 20px;
+}
+
+
+.contenido-categorias h3 span{
+	font-size: 10px;
+	background:#7FF720;
+	color:#7FF720;
+	border-radius: 50%;
+	display: inline-block;
+	text-align: center;
+	width: 8px;
+	height: 8px;
+	padding: 2px;
+	margin-right: 5px;
+	box-shadow: 0 0 8px 0 rgba(0, 0, 0, .9);
+}
+
+.contenido-categorias p{
+	background: rgba(255, 255, 255, 0.8);
+	border-radius: 5px;
+	box-shadow: -1px -2px 1px #838383, 2px 2px 1px #838383, -2px 2px 1px #838383, 2px -2px 1px #838383;
+	font-family: Verdana;
+	font-size: 19px;
+	font-weight: 200;
+   	width: 500px;
+   	text-align: center;
+   	margin-top: 100px;
+
+}
+
+/*SECCIÓN DIVISIONES*/
+
+.contenido-divisiones p{
+	background: rgba(255, 255, 255, 0.8);
+	border-radius: 5px;
+	box-shadow: -1px -2px 1px #838383, 2px 2px 1px #838383, -2px 2px 1px #838383, 2px -2px 1px #838383;
+	font-family: Verdana;
+	font-size: 20px;
+	font-weight: 200;
+   	width: 790px;
+   	text-align: center;
+   	margin-top: 100px;
+   	margin-left:100px;
+}
+
+.imagen-madriddh{
+	height: 280px;
+	width: 690px;
+	margin-bottom: 100px;
+	margin-right: 100px;
+	box-shadow: -3px -3px 1px #000, 2px 2px 1px #000, -2px 2px 1px #000, 2px -2px 1px #000;
+
+}
+
+.divisiones-contenedor{
+    justify-content: space-between;
+
+}
+
+.estructura_tabla{
+	width: 90%;
+	border: 3px solid #000;
+	font-size: 20px;
+	font-family: Verdana;
+	height: 500px;
+	border-collapse: collapse;
+	margin-left: auto; 
+	margin-right: auto;
+
+}
+
+.estructura_tabla td, tr{
+	border: 2px solid #000;
+	text-align: center;
+}
+
+.color_verde_tabla_divisiones {
+	background-color:#55F937;
+}
+
+.color_gris_tabla_divisiones {
+	background-color: #CFD2CF;
+}
+
+.color_blanco_tabla_divisiones{
+	background-color: rgba(255, 255, 255, 0.6);
+}
+
+/*SECCIÓN OTROS*/
+main .otros{
+	padding: 30px 0 60px 0;
+	background-color: rgba(105, 104, 104, 0.2);
+	margin-bottom: 90px;
+	margin-top: 90px;
+}
+
+
+.otros-galeria{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 100px;
+}
+
+.imagen-otros{
+    width: 22%;
+    margin-bottom: 10px;
+    overflow: hidden;
+    position: relative;
+    cursor: pointer;
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, .5);
+}
+
+.imagen-otros > img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+		/*Animación puntero foto*/
+.hover-otros{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    transform: scale(0);
+    background: rgba(255,255,255, 0.7);
+    transition: transform .5s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.hover-otros p{
+    color: black;
+    font-family: Verdana;
+    font-size: 30px;
+
+}
+
+.imagen-otros:hover .hover-otros{
+    transform: scale(1);
+}
+
+/*PIE DE PAGINA*/
+footer{
+    background: #2B2C2A;
+    padding: 10px 0 12px 0;
+}
+
+.contenedor-piedepagina{
+	display: flex;
+    width: 100%;
+    justify-content: space-around;
+    padding-bottom: 20px;
+    border-bottom: 2px solid #ccc;
+}
+
+.contenido-piedepagina{
+    text-align: center;
+}
+
+.contenido-piedepagina h4{
+	font-size: 20px;
+	font-family: Verdana;
+    color: white;
+    border-bottom: 3px solid #af20d3;
+    padding-bottom: 5px;
+    margin-bottom: 5px;
+}
+
+.contenido-piedepagina p{
+    color: #ccc;
+    font-size: 12px;
+    font-family: Verdana;
+}
+
+.titulo-final{
+    text-align: center;
+    font-size: 22px;
+    font-family: Verdana;
+    margin: 10px 0 0 10px;
+    color: white;
+}
+
+							/*^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^*/
+							/*^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^*/
+							/*^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^*/
+
+
+														/*WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW*/
+																					/*DIVISIONDEHONOR.HTML*/
+														/*WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW*/
+
+#fondo-divisiondehonor{
+	background: url(../img/fondos/estadio.jpg);
+	background-size: cover;
+	
+}
+
+#titulo-divisiondehonor {
+	font-family: heaters;
+	margin-left: auto;
+	margin-right:auto;
+	text-align: center;
+	font-size: 120px;
+	color: white;
+	text-shadow: -3px -3px 1px #000, 2px 2px 1px #000, -2px 2px 1px #000, 2px -2px 1px #000;
+}
+
+.estructura_tabla_otraspaginas{
+	width: 30%;
+	border: 3px solid #000;
+	font-size: 20px;
+	font-family: Verdana;
+	height: 500px;
+	border-collapse: collapse;
+	margin-top: 30px;
+	margin-left: auto; 
+	margin-right: auto;
+
+}
+
+.estructura_tabla_otraspaginas td, tr{
+	border: 2px solid #000;
+	text-align: center;
+}
+
+.tabla_divisionedehonor_clasificación{
+	background-color: #1B28C8;
+	color:white;
+}
+
+.imagen-sevilla{
+	width: 45%;
+}
+.imagen-malaga{
+	width: 45%;
+}
+.imagen-betis{
+	width: 60%;
+}
+.imagen-calavera{
+	width: 50%;
+}
+.imagen-granada{
+	width: 30%;
+}
+.imagen-sanfelix{
+	width: 50%;
+}
+.imagen-almeria{
+	width: 55%;
+}
+.imagen-cadiz{
+	width: 55%;
+}
+.imagen-vazquezcultural{
+	width:60%;
+}
+.imagen-santafe{
+	width:50%;
+}
+.imagen-cordoba{
+	width:60%;
+}
+.imagen-nervion{
+	width:45%;
+}
+.imagen-febrero{
+	width:60%;
+}
+.imagen-castilleja{
+	width:50%;
+}
+.imagen-recreativo{
+	width:50%;
+}
+.imagen-doshermanas{
+	width:50%;
+}
+.imagen-ceuta{
+	width:50%;
+}
+.imagen-peñabarcelonista{
+	width:50%;
+}
+
+.ancho_td_imagen{
+	width: 70px;
+	height: 35px;
+	background-color: rgba(255, 255, 255, 0.2);
+}
+.fondo_td_tabla_divisiondehonor{
+	background-color: rgba(255, 255, 255, 0.4);
+}
+.fondo_numeros_tabla_divisiondehonor{
+	background-color: rgba(10, 112, 164, 0.6);
+}
+
+.flecha_atras{
+	width: 120px;
+	height: 120px;
+}
+
+
+
+/*^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^*/
+							/*^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^*/
+							/*^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^*/
+
+
+														/*WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW*/
+																					/*LIGANACIONAL.HTML*/
+														/*WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW*/
+#fondo-liganacional{
+	background: url(../img/fondos/estadio2.jpg);
+	background-size: cover;
+	
+}
+
+#titulo-liganacional {
+	font-family: heaters;
+	margin-left: auto;
+	margin-right:auto;
+	text-align: center;
+	font-size: 120px;
+	color: white;
+	text-shadow: -3px -3px 1px #000, 2px 2px 1px #000, -2px 2px 1px #000, 2px -2px 1px #000;
+}
+
+
+.tabla_liganacional_clasificación{
+	background-color: #7E1B0F;
+	color:white;
+}
+
+.imagen-sevilla{
+	width: 45%;
+}
+.imagen-seneca{
+	width: 45%;
+}
+.imagen-balondecaliz{
+	width: 60%;
+}
+.imagen-betis{
+	width: 50%;
+}
+.imagen-cordoba{
+	width: 40%;
+}
+.imagen-sanluqueño{
+	width: 50%;
+}
+.imagen-algeciras{
+	width: 55%;
+}
+.imagen-sportingceuta{
+	width: 55%;
+}
+.imagen-tomares{
+	width:60%;
+}
+.imagen-donbosco{
+	width:50%;
+}
+.imagen-lucena{
+	width:60%;
+}
+.imagen-sanfernando{
+	width:50%;
+}
+.imagen-rociera{
+	width:60%;
+}
+.imagen-rosales{
+	width:50%;
+}
+.imagen-xerez{
+	width:50%;
+}
+.imagen-coria{
+	width:50%;
+}
+
+
+.fondo_td_tabla_liganacional{
+	background-color: rgba(255, 255, 255, 0.5);
+}
+
+.fondo_numeros_tabla_liganacional{
+	background-color: rgba(245, 108, 89, 0.6);
+}
+
+/*^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^*/
+							/*^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^*/
+							/*^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^*/
+
+
+														/*WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW*/
+																					/*2ª ANDALUZA.HTML*/
+														/*WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW*/
+
+#fondo-2andaluza{
+	background: url(../img/fondos/campnou.jpg);
+	background-size: cover;
+	
+}
+
+#titulo-2andaluza {
+	font-family: heaters;
+	margin-left: auto;
+	margin-right:auto;
+	text-align: center;
+	font-size: 120px;
+	color: white;
+	text-shadow: -3px -3px 1px #000, 2px 2px 1px #000, -2px 2px 1px #000, 2px -2px 1px #000;
+}
+
+
+.tabla_2andaluza_clasificación{
+	background-color: black;
+	color:white;
+}
+.imagen-puentegenil{
+	width: 45%;
+}
+.imagen-juanin{
+	width: 45%;
+}
+.imagen-senecab{
+	width: 45%;
+}
+.imagen-califas{
+	width: 45%;
+}
+.imagen-apademar{
+	width: 45%;
+}
+.imagen-pozoblanco{
+	width: 45%;
+}
+.imagen-egabrense{
+	width: 45%;
+}
+.imagen-alcazar{
+	width: 45%;
+}
+.imagen-donboscob{
+	width: 45%;
+}
+.imagen-villanueva{
+	width: 45%;
+}
+.imagen-palmadelrio{
+	width: 45%;
+}
+.imagen-bujalance{
+	width: 45%;
+}
+.imagen-montalbeño{
+	width: 45%;
+}
+.imagen-deportivocordoba{
+	width: 45%;
+}
+.imagen-figueroa{
+	width: 45%;
+}
+.imagen-lacarlota{
+	width: 45%;
+}
+
+
+.fondo_td_tabla_2andaluza{
+	background-color: rgba(255, 255, 255, 0.6);
+}
+
+.fondo_numeros_tabla_2andaluza{
+	background-color: rgba(100, 100, 100, 0.8);
+	color: #DFD8D7;
+}
+
+/*^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^*/
+							/*^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^*/
+							/*^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^*/
+
+
+														/*WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW*/
+																					/*3ª ANDALUZA.HTML*/
+														/*WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW*/
+
+#fondo-3andaluza{
+	background: url(../img/fondos/shaktar.jpg);
+	background-size: cover;
+	
+}
+
+#titulo-3andaluza {
+	font-family: heaters;
+	margin-left: auto;
+	margin-right:auto;
+	text-align: center;
+	font-size: 120px;
+	color: white;
+	text-shadow: -3px -3px 1px #000, 2px 2px 1px #000, -2px 2px 1px #000, 2px -2px 1px #000;
+}
+
+
+.tabla_3andaluza_clasificación{
+	background-color: black;
+	color:white;
+}
+
+.imagen-larambla{
+	width: 45%;
+}
+.imagen-deportivocordobab{
+	width: 45%;
+}
+.imagen-apedem{
+	width: 45%;
+}
+.imagen-montemayor{
+	width: 45%;
+}
+.imagen-carpio{
+	width: 45%;
+}
+.imagen-ciudadjardin{
+	width: 45%;
+}
+.imagen-palomera{
+	width: 50%;
+}
+.imagen-lucenab{
+	width: 50%;
+}
+.imagen-cruzconde{
+	width: 50%;
+}
+.imagen-stadium{
+	width: 45%;
+}
+.imagen-juaninb{
+	width: 50%;
+}
+.imagen-miralbaida{
+	width: 45%;
+}
+.imagen-higueron{
+	width: 50%;
+}
+.imagen-posadas{
+	width: 50%;
+}
+.imagen-almodovar{
+	width: 45%;
+}
+
+
+.fondo_td_tabla_3andaluza{
+	background-color: rgba(255, 255, 255, 0.6);
+}
+
+.fondo_numeros_tabla_3andaluza{
+	background-color: rgba(249, 133, 7, 0.8);
+	color: black;
+}
+
+.info{
+	width: 110px;
+}
